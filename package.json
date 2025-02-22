@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "Prueba Cafetería Nanacao",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "jest --forceExit",
-    "start": "node index.js"
+    "test": "jest --forceExit"
   },
   "author": "Javier Garin",
   "license": "ISC",
