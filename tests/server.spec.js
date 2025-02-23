@@ -8,7 +8,7 @@ describe("Operaciones CRUD de cafes", () => {
         const response = await request(server).get("/cafes").send();
         expect(response.statusCode).toBe(200); // que el status code sea 200
         expect(response.body).toBeInstanceOf(Array); // que la respuesta sea un arreglo
-        expect(response.body.length).toBeGreaterThan(0); // verifica que el arreglo no esté vacío
+        expect(response.body.length).toBeGreaterThan(0); // verifico que el arreglo no esté vacío
     });
 
     // test para GET (caso exitoso)
